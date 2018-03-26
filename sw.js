@@ -27,14 +27,14 @@ var urlsToCache = [
    'fonts/glyphicons-halflings-regular.woff2',
   'images',
   'js',
-  '404.html'
+  '404.html',
   'index.html',
   'about.html',
   'shop.html',
   'checkout.html',
   'contact.html',
   'payment.html',
-  'single.html',
+  'single.html'
 
   
   
