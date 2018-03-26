@@ -35,7 +35,7 @@ var urlsToCache = [
   'contact.html',
   'payment.html',
   'single.html',
-  'index.html',
+
   
   
 ];
