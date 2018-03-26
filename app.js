@@ -1,7 +1,7 @@
 
 //url validation
 
-var key; 
+/*var key; 
 var url='url_of_website/key';
 
 (function(){
@@ -28,9 +28,9 @@ var http= new XMLHttprequest();
 
 })();
 
-
+*/
 // if the url is valid then we go for registration 
-if(key==true){
+//if(key==true){
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js').then(function(reg) {
@@ -41,4 +41,4 @@ if ('serviceWorker' in navigator) {
   
 }
   
-}
+//}
