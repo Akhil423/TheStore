@@ -2,6 +2,7 @@
 //url validation
 
 var key="XXXX"; 
+var check;
 var url='https://8080-dot-3700497-dot-devshell.appspot.com/?authuser=0';
 
 (function(){
@@ -12,10 +13,10 @@ var http= new XMLHttprequest();
   
      if(this.readyState==4 && this.status==200){
      
-          if(this.responseText==true)
-            key=true;
+          if(this.responseText=="done")
+            check=true;
           else
-            key=false;
+            check=false;
     
      
      }
@@ -32,7 +33,7 @@ var http= new XMLHttprequest();
 
 
 // if the url is valid then we go for registration 
-//if(key==true){
+if(check==true){
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').then(function(reg) {
@@ -43,4 +44,4 @@ if ('serviceWorker' in navigator) {
   
 }
   
-//}
+}
