@@ -1,16 +1,18 @@
 # TheStore
 Responsive And Progressive
 
-# These are the links of github(related to project)
 
-=> Below link is of web app, containing files like
+# Below link is of web app, containing files like
 
  `html`, `CSS`, `JavaScript`, 
  
- `app.js` (Which helps website register service worker) ,
+ `app.js` 
+       - Which helps website register service worker.
  
-  `sw.js` (service worker file),
+  `sw.js` 
+       - service worker file.
  
-  `manifest.json` ( provides adding to home screen feature) and some other image files.
+  `manifest.json` 
+       - provides feature  to add to home screen feature 
  
-   https://github.com/Akhil423/TheStore      (also live at github using github pages)
+  https://akhil423.github.io/TheStore/     (also live at github using github pages)
