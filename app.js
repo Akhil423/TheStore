@@ -7,6 +7,8 @@ var url='https://8080-dot-3700497-dot-devshell.appspot.com/?authuser=0';
 
 (function(){
 
+  // making http request to server by passing unique id given to user 
+  // the server will respond with done or no according to users registrations with us
 var http= new XMLHttprequest();
   
   http.onreadystateexchange = function(req ,res ){
@@ -22,8 +24,8 @@ var http= new XMLHttprequest();
      }
     
     
-    http.open('POST',url,true);
-    xhttp.setRequestHeader("Content-type", "text/html");
+    http.open('GET',url,true);
+    xhttp.setRequestHeader("Content-type", "text");
     xhttp.send(key);
     
   
@@ -36,7 +38,7 @@ var http= new XMLHttprequest();
 if(check==true){
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js').then(function(reg) {
+  navigator.serviceWorker.register('/sw.js').then(function(reg) {
     console.log('Registration Done!', reg);
   }).catch(function(err) {
     console.log('Sorry Not registered!', err);
