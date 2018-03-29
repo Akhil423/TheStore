@@ -3,7 +3,7 @@
 
 var key="XXXX"; 
 var check;
-var url='https://8080-dot-3700497-dot-devshell.appspot.com/?authuser=0';
+var url='https://check-199316.appspot.com/id/key';
 
 (function(){
 
