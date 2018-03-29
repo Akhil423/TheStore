@@ -9,8 +9,8 @@ Responsive And Progressive
  
  `app.js` (Which helps website register service worker) ,
  
-  sw.js (service worker file),
+  `sw.js` (service worker file),
  
- manifest.json( provides adding to home screen feature) and some other image files.
+  `manifest.json` ( provides adding to home screen feature) and some other image files.
  
-https://github.com/Akhil423/TheStore      (also live at github using github pages)
+   https://github.com/Akhil423/TheStore      (also live at github using github pages)
