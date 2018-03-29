@@ -34,7 +34,7 @@ var http= new XMLHttprequest();
 })();
 
 
-// if the url is valid then we go for registration 
+// if the url is valid then we go for registration of service worker
 if(check==true){
 
 if ('serviceWorker' in navigator) {
