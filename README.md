@@ -2,7 +2,7 @@
 Responsive And Progressive
 
 
-# Below link is of web app, containing files like
+# Below info is of web app, containing files like
 
  `html`, `CSS`, `JavaScript`, 
  
