@@ -83,6 +83,7 @@ var filesToCache = [
 
 ];
 
+//updating service worker
 self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
   e.waitUntil(
@@ -93,7 +94,8 @@ self.addEventListener('install', function(e) {
   );
 });
 
-
+//useful for removing data that is no longer needed to avoid filling up too much disk space 
+//used to do stuff that would have broken the previous version while it was still running, 
 self.addEventListener('activate', function(e) {
   console.log('[ServiceWorker] Activate');
   e.waitUntil(
@@ -109,6 +111,7 @@ self.addEventListener('activate', function(e) {
   return self.clients.claim();
 });
 
+//for handling both cache and network requests
 self.addEventListener('fetch', function(e) {
   console.log('[ServiceWorker] Fetch', e.request.url);
   e.respondWith(
